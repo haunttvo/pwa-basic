@@ -1,0 +1,8 @@
+{
+  "name": "demo-pwa",
+  "homepage": "https://haunttvo.github.io/pwa-basic/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
